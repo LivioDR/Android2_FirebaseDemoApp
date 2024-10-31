@@ -53,4 +53,15 @@
         android:layout_marginTop="24dp"
         />
 
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="48dp"
+        android:text="Never mind, I actually have an account"
+    />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

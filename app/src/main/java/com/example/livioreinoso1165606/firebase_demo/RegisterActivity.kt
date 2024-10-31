@@ -31,6 +31,7 @@ class RegisterActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // Assign Firebase.auth to the auth variable created
         auth = Firebase.auth
 
         val emailField = findViewById<TextView>(R.id.email)
